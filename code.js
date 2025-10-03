@@ -7,10 +7,23 @@ function getConsonants(str) {
     return consonants ? consonants.join('') : '';
 }
 
-// Example usage:
+function lowercaseToUppercase(str) {
+    // lower to upper case
+    return str.replace(/[a-z]/g, char => char.toUpperCase());
+}
+
+
+// get consonants
 console.log(getConsonants("Hello"));
 console.log(getConsonants("abcdefghijklmnop"));
 
-// generate 3 capital consonants from the input string 
+// to upper caser
+console.log(lowercaseToUppercase("Hello"));
+
+// generate 3 capital consonants from the input string from second word
+
+// generate 3 capital consonants from first word
+
+// generate 2 numbers 
 
 
